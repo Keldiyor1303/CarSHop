@@ -12,7 +12,16 @@ header {
         span {
             width: 0px;
             height: 18.9px;
-            border: 1px solid #676767;
+            border: 1px solid $PrimaryColor;
+            background-color: $PrimaryColor;
+        }
+
+        img:active {
+            opacity: 0.7;
+        }
+        
+        img:hover {
+            cursor: pointer;
         }
     }
 }

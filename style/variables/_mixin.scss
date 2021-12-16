@@ -6,7 +6,7 @@
     gap: $gap;
 }
 
-@mixin feature($font-weight: 400, $font-size: 13px, $line-height: 20px, $color: $primaryColor, $padding: 0px) {
+@mixin feature($font-weight: 400, $font-size: 13px, $line-height: 20px, $color: $PrimaryColor, $padding: 0px) {
     font-weight: $font-weight;
     font-size: $font-size;
     line-height: $line-height;
