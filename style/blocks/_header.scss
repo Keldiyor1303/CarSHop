@@ -1,0 +1,18 @@
+header {
+    margin-top: 25px;
+    @include display($justify-content: space-between);
+
+    nav {
+        @include display($gap: 50px);
+    }
+
+    .icons {
+        @include display($gap: 20px);
+
+        span {
+            width: 0px;
+            height: 18.9px;
+            border: 1px solid #676767;
+        }
+    }
+}

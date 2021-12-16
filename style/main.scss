@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "./variables/variable";
+@import "./variables/mixin";
+@import "./blocks/section-1";
+@import "./blocks/header";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F0D0E;
+    font-family: "Montserrat";
+
+    section {
+    padding: 0 70px;
+    }
+}
+
+a {
+    text-decoration: none;
+    @include feature($color: #676767, $font-size: 16px, $line-height: 26px);
+}
