@@ -3,6 +3,7 @@
 @import "./variables/mixin";
 @import "./blocks/section-1";
 @import "./blocks/header";
+@import "./blocks/section-2";
 
 * {
     margin: 0;
@@ -16,6 +17,7 @@ body {
 
     section {
     padding: 0 100px;
+    position: relative;
     }
 }
 
@@ -35,4 +37,21 @@ a {
         opacity: 0.7;
     }
 
+}
+
+button {
+    background-color: $Color;
+    color: $SecondaryColor;
+    border: none;
+    padding: 5px 10px;
+    @include display;
+    cursor: pointer;
+    
+    &:active {
+        opacity: 0.7;
+    }
+}
+
+.primary-h2 {
+    @include feature($color: $SecondaryColor, $font-size: 55px, $line-height: 70px, $font-weight: 700);
 }
